@@ -23,10 +23,10 @@ grabSubmitBtn.addEventListener("click", (e) =>
     console.log(grabLastNameInput.value);
     console.log(grabDateInput.value);
 
-    const paragraphElement = document.querySelector("#paragraph");
+    const paragraphElement = document.querySelector(".paragraph");
     console.log(paragraphElement);
 
-    paragraphElement.textContent = `${grabFirstNameInput.value} ${grabLastNameInput.value} your birthday is ${grabDateInput.value}`
+    paragraphElement.textContent = `${grabFirstNameInput.value} ${grabLastNameInput.value} your birthday is ${grabDateInput.value}. Thank you for liking!`
     
 
     console.log(`${grabFirstNameInput.value} ${grabLastNameInput.value} your birthday is ${grabDateInput.value} Thank you for the LIKE!`);
