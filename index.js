@@ -122,3 +122,65 @@ while(guess !=  3) {
 }
 //alert("You guessed correctly!")
 
+// function log (a, b){
+//     console.log(a + b)
+// }
+// log("leilani", " caban")
+
+// function addStrings(str1, str2) {
+//     return str1 + str2
+// }
+// let combination = addStrings("hi", "bye")
+
+// let name = funtion (a,b); { // Function Expression
+
+// }
+
+// name (1,5)
+// function name2(){ // Regular Function
+
+// }
+
+// let name3 = (a, b) => {return a + b} // Arrow Fuction
+
+// for (var i = 0; i < 10; i++){
+
+// }
+//  console.log(i)
+
+//  let nums = [1,2,3,4,5]
+//  let names = ['leilani', 'gisele', 'caban']
+
+//  loopArray(nums)
+//  loopArray(names)
+
+//  function vendingMachine(money, item){
+//     let snacks = ['Pepsi', 'Hershey', 'Snickers', 'Reeses', 'Water', 'Fritos']
+
+//     if (money = '$2.00') {
+//             }for (snack of snacks) {
+//             if (item === snack){
+//             return snack
+//         }else{
+//             return "doesn't exist"
+//         } 
+//     }
+// }
+
+
+// Rock Paper Scissors using a Function ||| need to define variables and finish conditions
+
+// let game = function () {
+    let userInput = prompt('Choose rock, paper, or scissors')
+    let botChoices = ['rock', 'paper', 'scissors']
+    let botChoice = botChoices[Math.floor(math.random() * 3)]
+
+    if (userInput === botChoice){
+    return 'Its a tie'
+    } else if (userInput === 'rock' || botChoice === 'scissors' ) (userInput === 'scissors' || botChoice === 'paper') (userInput === 'paper' || botChoice === 'rock') {
+        return 'You Win!'
+
+    }
+// }
+
+
